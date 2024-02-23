@@ -6,14 +6,14 @@ data = dict(
     train=dict(
         sup=dict(
             type="CocoDataset",
-            ann_file="/root/paddlejob/workspace/env_run/output/temp/data/coco/annotations/semi_supervised/instances_train2017.${fold}@${percent}.json",
-            img_prefix="/root/paddlejob/workspace/env_run/output/temp/data/coco/train2017/",
+            ann_file="/media/hungdv/Source/Data/ai-city-challenge-2024/track4/Fisheye8K/ms_coco-format_labels/all.json",
+            img_prefix="/media/hungdv/Source/Data/ai-city-challenge-2024/track4/Fisheye8K/all/images/",
 
         ),
         unsup=dict(
             type="CocoDataset",
-            ann_file="/root/paddlejob/workspace/env_run/output/temp/data/coco/annotations/semi_supervised/instances_train2017.${fold}@${percent}-unlabeled.json",
-            img_prefix="/root/paddlejob/workspace/env_run/output/temp/data/coco/train2017/",
+            ann_file="/media/hungdv/Source/Data/ai-city-challenge-2024/track4/Fisheye8K/val.json",
+            img_prefix="/media/hungdv/Source/Data/ai-city-challenge-2024/track4/Fisheye8K/val/images/",
 
         ),
     ),

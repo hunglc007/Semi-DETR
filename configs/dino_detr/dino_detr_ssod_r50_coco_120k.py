@@ -22,7 +22,7 @@ model = dict(
         query_dim=4,
         random_refpoints_xy=False,
         bbox_embed_diff_each_layer=False,
-        num_classes=80,
+        num_classes=5,
         in_channels=2048,
         transformer=dict(type='DINOTransformer'),
         positional_encoding=dict(
